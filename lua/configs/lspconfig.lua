@@ -4,7 +4,7 @@ local on_init = require("nvchad.configs.lspconfig").on_init
 local capabilities = require("nvchad.configs.lspconfig").capabilities
 
 local lspconfig = require "lspconfig"
-local servers = { "html", "cssls", "pyright", "gopls", "tsserver" }
+local servers = { "html", "cssls", "pyright", "gopls", "tsserver", "svelte" }
 
 local get_python_path = require("util.python").get_python_path
 

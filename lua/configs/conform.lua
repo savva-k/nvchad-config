@@ -2,7 +2,10 @@ local options = {
   formatters_by_ft = {
     lua = { "stylua" },
     css = { "prettier" },
-    html = { "gopls" },
+    html = { "prettier" },
+    svelte = { "prettier" },
+    ts = { "prettier" },
+    js = { "prettier" },
     python = { "isort", "black" },
     go = { "gopls" },
   },
